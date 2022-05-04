@@ -1,5 +1,5 @@
 import axios from "axios"
-import { LIMIT_POKEMON, BASE_URL } from '@/env'
+import { LIMIT_POKEMON, BASE_URL } from '../env'
 
 export const getPokemons = async ({ filter = '' } = {}) => {
   if (!getPokemons._cache) {
