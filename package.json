@@ -11,10 +11,13 @@
   "dependencies": {
     "axios": "^0.27.2",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "skeleton-css": "^2.0.4"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.12.13",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
     "@swc/core": "^1.2.176",
     "@swc/jest": "^0.2.20",
     "@testing-library/jest-dom": "^5.16.4",

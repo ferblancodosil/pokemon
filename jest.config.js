@@ -20,9 +20,7 @@ module.exports = {
     "^.+\\.module\\.(css|sass|scss)$",
   ],
   moduleNameMapper: {
-    '^@/(.*)': '<rootDir>/src/$1',
-    "^react-native$": "react-native-web",
-    "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    '^@/(.*)': '<rootDir>/src/$1'
   },
   moduleFileExtensions: [
     // Place tsx and ts to beginning as suggestion from Jest team
