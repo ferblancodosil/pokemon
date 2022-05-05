@@ -4434,6 +4434,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+getskeleton@^2.0.4-2:
+  version "2.0.4-2"
+  resolved "https://registry.yarnpkg.com/getskeleton/-/getskeleton-2.0.4-2.tgz#66014a29bf53e939da8d80b5a5a84dacc5476ffb"
+  integrity sha1-ZgFKKb9T6TnajYC1pahNrMVHb/s=
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
