@@ -1,7 +1,7 @@
 import { useParams } from "react-router"
 import { getPokemons, getDetails, getForms } from "../../services"
 import {useEffect, useLayoutEffect, useState} from "react"
-import { useNavigate } from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import "./index.scss"
 import Table from "../../components/Table";
 
@@ -53,6 +53,7 @@ function Index() {
   return (
       <>
         <div className="container detail">
+          <Link style={{position: 'absolute', top: '15px', right: '15px'}} to="/"><img alt="close" src="/close.png" width="15"/></Link>
           <div className="row">
             <div className="six columns">
               <div className="twelve columns">
@@ -60,7 +61,7 @@ function Index() {
               </div>
               <div className="twelve columns">
                 <h3>{name}</h3>
-                <h6>{forms.map((form, index) => <span key={index}>ID: {form.id} { form.is_battle_only ?  'with' : 'without' } Battle Mode</span>)}</h6>
+                <h6>{forms.map((form, index) => <span key={index}>Nº: {form.id} { form.is_battle_only ?  'with' : 'without' } Battle Mode</span>)}</h6>
                 <div className="row">{abilities.map((item, index) => <span key={index} className="tag">{item.ability.name}</span>)}</div>
               </div>
             </div>
