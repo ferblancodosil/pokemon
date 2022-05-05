@@ -1,0 +1,25 @@
+.detail {
+  background: #efefef;
+  margin-top: 2vh !important;
+  height: 96vh;
+  padding: 5rem !important;
+  border-radius: 12px;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  .tag {
+    background: gray;
+    border-radius: 12px;
+    padding: 5px 15px;
+    color: white;
+  }
+  img {
+    &.responsive {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

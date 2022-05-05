@@ -25,7 +25,7 @@ function List() {
   }, [text2search])
 
   return (
-    <div className="container">
+    <div className="container list">
       <div className="row">
         <div className="twelve column mt-1">
           <Searcher onChange={onChange} placeholder="Busca tu pokemon"/>
